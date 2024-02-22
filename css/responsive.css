@@ -1,0 +1,179 @@
+@media (max-width:768px){
+    img.contact-us {
+        display: none;
+    }
+    .portfolio img.vector-png {
+        position: absolute;
+        width: 121px;
+        top: -85px;
+        left: 167px;
+    }
+    section.product img.vector-png {
+        left: 218px;
+    }
+    img.circle-vector {
+        position: absolute;
+        width: 85px;
+        right: -8px;
+        top: -27px;
+        animation: slideRight4 1s cubic-bezier(0, 0, 0, 0) infinite;
+        animation-duration: 30s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+    .content-banner h2 {
+        text-align: center;
+        color: #fff;
+        font-family: 'Poppins';
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    .content-banner {
+        padding-top: 65px;
+        padding-bottom: 100px;
+    }
+    .testimonials img.vector-png {
+        position: absolute;
+        width: 50px;
+        top: -34px;
+        left: 120px;
+    }
+    section#faq .col-lg-6.ps-5 {
+        padding-left: 20px !important;
+    }
+    .uk-slider-items li {
+         margin: 5px; 
+    }
+    .col-lg-4.p-0.desk-show {
+        display: none;
+    }
+    .col-lg-4.p-0.mob-show {
+        display: block;
+    }
+    .btn-center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .line-vector {
+        position: relative;
+        top: 13px;
+    }
+}
+@media (max-width:480px){
+    .portfolio img.vector-png {
+        position: absolute;
+        width: 42px;
+        top: -30px;
+        left: 120px;
+    }
+    img.circle-vector {
+        position: absolute;
+        width: 85px;
+        right: -8px;
+        top: -27px;
+        animation: slideRight4 1s cubic-bezier(0, 0, 0, 0) infinite;
+        animation-duration: 30s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+    .content-banner h2 {
+        text-align: center;
+        color: #fff;
+        font-family: 'Poppins';
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    .content-banner {
+        padding-top: 65px;
+        padding-bottom: 100px;
+    }
+    .testimonials img.vector-png {
+        position: absolute;
+        width: 50px;
+        top: -34px;
+        left: 120px;
+    }
+    
+    section#faq .col-lg-6.ps-5 {
+        padding-left: 15px !important;
+        padding-top: 50px;
+    }
+    .about-content h2 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .uk-slider-items li {
+         margin: 0px; 
+    }
+    .uk-slider-items li img {
+        border-radius: 17px;
+        box-shadow: 0px 0px 10px #ffffff00;
+        border: 3px solid #fff;
+    }
+    li.mt-5 {
+        margin: 0px !important;
+    }
+    h2.portfolio {
+        font-size: 30px;
+        font-weight: 700;
+    }
+    section#about .col-lg-6.px-5 {
+        padding: 0px 20px !important;
+    }
+    .col-lg-4.p-0.desk-show {
+        display: none;
+    }
+    .col-lg-4.p-0.mob-show {
+        display: block;
+    }
+    .btn-center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .line-vector {
+        position: relative;
+        top: 13px;
+    }
+}
+@media (min-width:769px) and (max-width:991px){
+    .col-lg-4.p-0.desk-show {
+        display: none;
+    }
+    .uk-slider-items li {
+        margin: 0px !important;
+    }
+    .uk-slider-items li img {
+        border-radius: 17px;
+        box-shadow: 0px 0px 10px white;
+        border: 3px solid #fff;
+        width: 100%;
+    }
+    .portfolio img.vector-png {
+        position: absolute;
+        width: 112px;
+        top: -77px;
+        left: 264px;
+    }
+    section.product img.vector-png {
+        left: 315px;
+    }
+    .testimonials img.vector-png {
+        position: absolute;
+        width: 111px;
+        top: -82px;
+        left: 238px;
+    }
+    section#faq .col-lg-6.ps-5 {
+        padding-left: 15px !important;
+        padding-top: 52px;
+    }
+}
+@media (min-width:992px){
+    .col-lg-4.p-0.mob-show {
+        display: none;
+    }
+}
